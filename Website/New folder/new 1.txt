@@ -1,0 +1,65 @@
+<div class = "container" >
+  <div class="hero-unit" >
+	
+  <div class="media">
+  <div class="media-body">
+    <h1 class="text-muted">Welcome</h1>
+    <h2 class="media-heading">Jennifer Mulvany</h2>
+	<p>Jennifer is an undergraduate of IT Tallaght in her final year working towards a Bachelor of Science Degree(hons) in IT Management . Jennifer is currently part of the IT infrastructure team in Smurfit Kappa holding the position of Junior IT Admin in Smurfit Kappa Group HQ. Jennifer deals with all level 1 issues and has a depth of knowledge with Microsoft OS, SCCM and Microsoft Office.
+	</p>
+  </div>
+  <div class="media-right">
+    <img src="Photo.png" class="media-object" width="220" height="200"> 
+  </div>
+</div>
+
+</div>	
+	
+	
+    <div class="container" style="background-color:#f2f2f2;>
+  
+  <div class="row">
+    <div class="col-sm-4">
+      <h3><a href="Education.html">Education</a></li></h3>
+	  <p> <a href="http://www.it-tallaght.ie/"><img src="tallaght.png" width = "150" height = "100"></a></p>
+	  <p><a class="btn btn-lg btn-success" href="#" role="button">Learn More</a></p>
+	</div>
+    <div class="col-sm-4">
+	<h3>Work Experience</h3>
+	   <div class = "media">
+	   <div class="media-left">
+	   <img src="Smurfit.png" class="media-object" width = "80" height = "60">
+	   </div> 
+	   <div class="media-body">
+    <h5>Junior IT Administrator</h5><p> Aug 2017 - Present </p>
+	</div>
+	</div>
+	<div class = "media">
+	   <div class="media-left">
+	   <img src="mcdonalds.png" class=" d-block img-fluid" width = "80" height = "60">
+	   </div> 
+	   <div class="media-body">
+    <h5>Area Manager</h5><p> Nov 2015 - Dec 2017
+	</div>
+       </div>
+	<p><a class="btn btn-lg btn-success" href="#" role="button">Learn More</a></p>
+    </div>
+	
+	
+	<div class="col-sm-4" >
+      <h3>Contact Me</h3>
+	  <p>Email: jen_mul@hotmail.com</p>
+	  <p> Facebook 
+	  <p><a class="btn btn-lg btn-success" href="#" role="button">Learn More</a></p>
+    </div>
+  </div>
+</div>
+	
+
+
+  
+</div>
+	
+</div>	
+</div>
+	</div>
