@@ -38,8 +38,8 @@
 		<li><a href="Home.html">Home</a></li>
 		<li><a href="AboutMe.html">About Me</a></li>
 		<li><a  href="Education.html">Education</a></li>
-		<li><a class="active" href="WorkExperience.html">Work Experience</a></li>
-		<li><a href="contact.html">Contact Me</a></li>
+		<li><a href="WorkExperience.html">Work Experience</a></li>
+		<li><a class="active" href="contact.html">Contact Me</a></li>
 	</ul>
    
   <form class="navbar-form navbar-left">
@@ -55,44 +55,23 @@
 	</div> 
 	</div>
  </nav>
+ 
+  <h1>Contact Me</h1>
 
- <div class = "container" >
-  <div class="hero-unit" >
-   <div class="row">
-    <div class="col-sm-4">
-	   <img src="Smurfit.jpg" class="d-block img-fluid" width = "80" height = "60">
-	<h5>Junior IT Administrator</h5><p> Aug 2017 - Present </p>
-	</div>
-	<div class="col-sm-4">
-	   <img src="Smurfit.jpg" class="d-block img-fluid" width = "80" height = "60">
-	<h5>IT Intern</h5><p> Jan 2017 - Aug 2017</p>
-	</div>
-	<div class="col-sm-4">
-    <img src="mcdonalds.jpg" class=" d-block img-fluid" width = "80" height = "60">
-	<h5>Area Manager</h5><p> Nov 2015 - Dec 2016
-	</div>
-	<div class="col-sm-4">
-    <img src="mcdonalds.jpg" class=" d-block img-fluid" width = "80" height = "60">
-	<h5>Crew Trainer</h5><p> July 2014 - Nov 2015
-	</div>
-	<div class="col-sm-4">
-    <img src="mcdonalds.jpg" class=" d-block img-fluid" width = "80" height = "60">
-	<h5>Crew Member</h5><p> April 2014 - July 2014
-	</div>
-	<div class="col-sm-4">
-    <img src="Barcelona.jpg" class=" d-block img-fluid" width = "80" height = "60">
-	<h5>Aupair</h5><p> May 2013 - August 2013
-	</div>
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
 
-       </div>
-	   
-	
-		 
-  
-</div>
-</div>
-</div>
-</div>
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(53.289083, -6.354983), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4VJSTX2M7-qsLQ5OkhrRpzvrEU7zncds&callback=myMap"></script>
+
   
   </body>
 </html>
